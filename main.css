@@ -1,0 +1,124 @@
+body{
+  background-color: white;
+  width:100%;
+  overflow-x: hidden;
+}
+header{
+  text-align: center;
+}
+.jumbotron{
+
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title{
+  border: 3px solid black;
+  background-color: grey;
+  font-style: italic;
+  display: flex;
+  align-content: space-around;
+  cursor:pointer;
+  flex-direction: row;
+  width: 100%;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;;
+}
+.date{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: flex-start;
+}
+
+.text{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+.languages{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+
+}
+
+.hobbies{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+
+}
+h6{
+  -webkit-margin-before: 0.33em;
+    -webkit-margin-after: 0.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h3{
+  -webkit-margin-before: 0.33em;
+    -webkit-margin-after: 0.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h1{
+  -webkit-margin-before: 0.13em;
+    -webkit-margin-after: 0.13em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.languages p{
+  display: inline;
+  padding-right: 18px;
+
+
+}
+.hobies p{
+  display: block;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+#experience-{
+  display: none;
+}
+#education-{
+  display: none;
+}
+#professional-{
+  display: none;
+}
+#hobbies-{
+  display: none;
+}
+#languages-{
+  display: none;
+}
+#experience{
+background-color: #3A9BBF;
+color: white;
+}
+#education{
+background-color: #27677F;
+color: white;
+}
+#professional{
+  background-color: #4ECFFF;
+  color: white;
+}
+#hobbies{
+  background-color: #133440;
+  color: white;
+}
+#languages{
+  background-color: #46BAE5;
+  color: white;
+}
